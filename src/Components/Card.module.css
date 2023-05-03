@@ -1,0 +1,87 @@
+@media only screen and (max-device-width: 420px) {
+    .card {
+        position: absolute;
+        background-color: #ffffff;
+        height: 500px;
+        width: 320px;
+        top: 50%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -160px;
+        border-radius: 20px;
+    }
+    
+    img {
+        position: absolute;
+        height: 290px;
+        width: 290px;
+        top: 15px;
+        left: 15px;
+        border-radius: 10px;
+    }
+
+    .text {
+        position: absolute;
+        bottom: 20px;
+        font-family: 'Outfit thin';
+        text-align: center;
+    }
+
+    h2 {
+        color: #22324b;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 23px;
+    }
+
+    p {
+        color: #969aa9;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-device-width: 420px) {
+    .card {
+        position: absolute;
+        background-color: #ffffff;
+        height: 650px;
+        width: 430px;
+        top: 50%;
+        left: 50%;
+        margin-top: -325px;
+        margin-left: -215px;
+        border-radius: 30px;
+    }
+    
+    img {
+        position: absolute;
+        height: 380px;
+        width: 380px;
+        top: 25px;
+        left: 25px;
+        border-radius: 15px;
+    }
+
+    .text {
+        position: absolute;
+        bottom: 30px;
+        font-family: 'Outfit thin';
+        text-align: center;
+    }
+
+    h2 {
+        color: #22324b;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 27px;
+    }
+
+    p {
+        color: #969aa9;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 20px;
+    }
+}
